@@ -37,3 +37,14 @@ else {
     console.log('Jon is dead')
 }}
 isJonAlive() 
+
+function attackJon(damage) {
+    jonSnowHealth = jonSnowHealth - damage
+    isJonAlive()
+}
+
+attackJon(30)
+//isJonAlive() 
+attackJon(10)
+//isJonAlive() 
+//console.log(jonSnowHealth)
